@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+  <body class="">
+
+    <section class="main-container">
+      <div class="theme-switcher">
+        <div>
+          <h1>calc</h1>
+        </div>
+        <div>
+          <p>THEME</p>
+          <div>
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
+            <div class="switcher" id="ball-container">
+              <div class="switch-ball" id="ball"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="screen">
+        <h2 data-output-value></h2>
+      </div>
+      <div class="calc" id="calc">
+          <button data-num>7</button>
+          <button data-num>8</button>
+          <button data-num>9</button>
+          <button data-del>DEL</button>
+          <button data-num>4</button>
+          <button data-num>5</button>
+          <button data-num>6</button>
+          <button data-oper>+</button>
+          <button data-num>1</button>
+          <button data-num>2</button>
+          <button data-num>3</button>
+          <button data-oper>-</button>
+          <button data-num>.</button>
+          <button data-num>0</button>
+          <button data-oper>/</button>
+          <button data-oper>x</button>
+          <button data-reset>RESET</button>
+          <button data-equals>=</button>
+      </div>
+    </section>
+    <script src="./js/ThemeSwicher.js"></script>
+    <script src="./js/calc.js"></script>
+  </body>
+</html>

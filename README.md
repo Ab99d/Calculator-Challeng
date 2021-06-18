@@ -1,2 +1,5 @@
-# Calculator-Challeng
-front end mentor ( calculator with theme swicher challeng )
+# Frontend Mentor - Calculator app
+
+![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
+
+## Welcome! 👋
